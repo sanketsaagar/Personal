@@ -3,3 +3,4 @@ print(mystring)
 
 mystring1 = "My second name is Saagar"
 print(mystring1)
+print(type(mystring1))

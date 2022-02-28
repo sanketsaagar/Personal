@@ -12,3 +12,4 @@ and I am not
 good
 '''
 print(help_message)
+print(len(help_message))

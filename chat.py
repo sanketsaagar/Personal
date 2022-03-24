@@ -4,6 +4,7 @@ Dict = {'Hey there, How are you?':'Fine thanks',
         'How was your day?':'Awesome!'}
 
 I = input("Hello! Please shoot question: ")
+
 while(True):    
     if(I in Dict):
         print(Dict[I])

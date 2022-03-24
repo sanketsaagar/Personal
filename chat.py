@@ -14,3 +14,5 @@ while(True):
         break
     else:
         print('Please ask valid questions')
+        break
+    

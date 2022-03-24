@@ -1,12 +1,15 @@
-Dict = {'How are you?':'Fine thanks', ' What is your name?':'Buddy'}
-s = input("Hello! Please ask a question:")
+Dict = {'Hey there, How are you?':'Fine thanks', 
+        'What is your name?':'Sanket', 
+        'Where are you from?':'Jharkhand',
+        'How was your day?':'Awesome!'}
+
+I = input("Hello! Please shoot question: ")
 while(True):    
-    if(s in Dict):
-        print(Dict[s])
-        s= input()
-    elif(s=='Bye'):
-        print("Nice talking to you visit again")
+    if(I in Dict):
+        print(Dict[I])
+        I= input()
+    elif(I=='See you'):
+        print("Sure, See you later")
         break
     else:
-        print('Invalid Question')
-    break
+        print('Please ask valid questions')

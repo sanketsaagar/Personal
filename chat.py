@@ -3,7 +3,7 @@ Dict = {'Hey there, How are you?':'Fine thanks',
         'Where are you from?':'Jharkhand',
         'How was your day?':'Awesome!'}
 
-I = input("Hello! Please shoot question : ")
+I = input("Hello! Please shoot questions : ")
 
 while(True):    
     if(I in Dict):
@@ -13,5 +13,5 @@ while(True):
         print("Sure, See you later")
         break
     else:
-        print('Please ask valid questions')
+        print('Please ask valid questions from next time!')
         break

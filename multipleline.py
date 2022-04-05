@@ -1,0 +1,1 @@
+x= 3; y=2; sum=x+y; sub= x-y; print(sum); print(sub)

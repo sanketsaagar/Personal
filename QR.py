@@ -12,7 +12,7 @@ def get_code():
 #Get a Tk window of 400 * 200
 base = Tk()
 base.geometry("400x200")
-base.title("QR Code Generator")
+base.title("QR Generator")
 
 # variable to store text for QR Code
 data = StringVar()
@@ -22,7 +22,7 @@ dataEntry = Entry(textvariable=data, width="30")
 dataEntry.place(x=80,y=50)
 
 # Call get_code() on click
-button = Button(base,text="Get Code",command=get_code,width="30",height="2",bg="grey")
+button = Button(base,text="Get QR",command=get_code,width="30",height="2",bg="grey")
 button.place(x=80,y=100)
 
 base.mainloop()

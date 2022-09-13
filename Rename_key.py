@@ -6,6 +6,6 @@ print('The Original Dictionary is:- ', student1) #Printing the original Dictiona
 
 student1['Social Science'] = student1['Science']
 
-del student1['Science']
+#del student1['Science']
 
 print('After Renaming the Dictionary :-', student1)

@@ -2,6 +2,9 @@
 #subject,add scores of a new subject into the dictionary and copy the dictionary for another studenst.
 
 
+from statistics import mean
+
+
 student1 = {'Maths':34, 'Science':65, 'English':45, 'Hindi':76 }
 student2=  {'Maths': 50, 'Science':74, 'English':36, 'Hindi':38}
 
@@ -20,12 +23,11 @@ student1.update({'Physics': '68'}) #adding new subject marks in the Dictionary
 print("The new String after adding key value is :-" ,student1)
 
 
-fin_max = max(student1, key= student1.get)
-print("Highest Scoding Subject :",fin_max)
+#fin_mean = mean(student1, key= student1.get)
+#print("Mean Scoring Subject :",fin_mean) 
 
-fin_min = min(student1, key= student1.get)
-print("Lowest Scoding Subject :",fin_min)
-
+print('Minimum scoring Subject is: ',min(student1.keys()))
+print('Maximum scoring Subject is: ',max(student1.keys()))
 
 
 

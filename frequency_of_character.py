@@ -5,7 +5,7 @@ str_new= {}
 for i in str1:
     if i in str_new:
         str_new[i]+= 1
-        print(str_new)
+ #       print(i)
     else:
         str_new[i] = 1
 

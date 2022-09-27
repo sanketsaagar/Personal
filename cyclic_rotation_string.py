@@ -2,6 +2,7 @@
 
 str1 = 'xyzk'
 str2 = 'yzkx'
+#yzkx
 
 if len(str1)!= len(str2):
     print("The string is not same")

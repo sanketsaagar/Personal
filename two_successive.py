@@ -1,4 +1,4 @@
-
+#To find the frequency of occurrence of all two successive characters in string.
 str1 = "Parallelogram"
 str_new= {}
 

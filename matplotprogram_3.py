@@ -1,10 +1,18 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
-x= np.array([2,4,6,8,10,12,14,16,18,20])
-y= np.array([10,20,30,40,50,60,70,80,90,100])
-mycolour = ["Red", "Yellow", "Green", "Blue"]
+# Fixing random state for reproducibility
+np.random.seed(19680801)
 
-plt.scatter(x,y, c=mycolour, cmap= 'Greens')
-plt.colorbar()
+
+x = np.arange(0.0, 50.0, 2.0)
+y = x ** 1.3 + np.random.rand(*x.shape) * 30.0
+sizes = np.random.rand(*x.shape) * 800 + 500
+
+fig, ax = plt.subplots()
+ax.scatter(x, y, sizes, c="green", alpha=0.5, marker=r'$\clubsuit$',
+           label="Luck")
+ax.set_xlabel("Leprechauns")
+ax.set_ylabel("Gold")
+ax.legend()
 plt.show()
